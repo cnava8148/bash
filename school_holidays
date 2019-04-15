@@ -1,0 +1,123 @@
+#! /bin/bash 
+
+ 
+ 
+
+month=13 
+
+ 
+ 
+
+while [[ ${month} -ne 0 ]]; do 
+
+   read -p "Enter the number of a month to view CSUN holidays. Enter a 0 to exit: " month 
+
+   case $month in 
+
+      1)   echo "January" 
+
+           echo "Martin Luther King jr. - 18" 
+
+           ;; 
+
+      2)   echo "February"  
+
+           echo "No Holidays" 
+
+           ;; 
+
+      3)   echo "March" 
+
+           echo "Cesar Chavez - 31" 
+
+           ;; 
+
+      4)   echo "April" 
+
+           echo "No Holidays" 
+
+           ;; 
+
+      5)   echo "May" 
+
+           echo "Memorial Day - 30" 
+
+           ;; 
+
+      6)   echo "June" 
+
+           echo "No Holidays" 
+
+           ;; 
+
+      7)   echo "July" 
+
+           echo "Independence Day - 4" 
+
+           ;; 
+
+      8)   echo "August" 
+
+           echo "No Holidays" 
+
+           ;; 
+
+      9)   echo "September" 
+
+           echo "Labor day - 7" 
+
+           ;; 
+
+      10)  echo "October" 
+
+           echo "No Holidays" 
+
+           ;; 
+
+      11)  echo "November" 
+
+           echo "Veterans Day - 11" 
+
+           echo "Thanksgiving - 26" 
+
+           echo "Admission Day - 27" 
+
+           ;; 
+
+      12)  echo "December" 
+
+           echo "Christmas - 25" 
+
+           echo "Lincoln's Birthday - 28" 
+
+           echo "Washington's Birthday - 29" 
+
+           echo "Columbus Day - 30" 
+
+           echo "Campus Closed - 31" 
+
+           ;; 
+
+ 
+ 
+
+      0)   echo "Good Bye" 
+
+           exit 
+
+           ;; 
+
+      *)   echo "Not a valid entry"  
+
+           ;; 
+
+      esac 
+
+done 
+
+exit 
+
+ 
+ 
+
+ 
